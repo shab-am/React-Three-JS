@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shape Toggle</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+      .content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        margin: 20px;
+      }
+      .content button {
+        width: 130px;
+        height: 40px;
+        margin: 10px;
+        background-color: lightseagreen;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+      .main {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
